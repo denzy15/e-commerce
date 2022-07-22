@@ -1,0 +1,80 @@
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 30px 40px 30px 20px;
+  border-bottom: 1px solid #e6e6e6;
+  &__img {
+    width: 120px;
+    height: 120px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  &__body {
+    margin: 0px 10px 0px 25px;
+    flex: 0 1 320px;
+  }
+  &__gost {
+    color: #c93e33;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.009em;
+    span {
+      padding: 4px 10px;
+      background: rgba(201, 61, 51, 0.1);
+      border-radius: 2px;
+    }
+  }
+  &__name {
+    margin: 10px 0px 16px 0px;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.009em;
+  }
+  &__price {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    letter-spacing: 0.009em;
+
+    color: #b3b3b3;
+  }
+  &__counter {
+    border-radius: 2px;
+    overflow: hidden;
+    border: 1px solid #e6e6e6;
+    height: 35px;
+    display: flex;
+    button {
+      background: #ffffff;
+      border: 1px solid #e6e6e6;
+      height: 100%;
+      width: 28px;
+      cursor: pointer;
+    }
+    span {
+      background: #ffffff;
+      height: 100%;
+      width: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  &__count-price {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.009em;
+    margin-left: 40px;
+    flex: 1 1 auto;
+  }
+  & .delete {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+}

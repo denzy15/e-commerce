@@ -1,0 +1,192 @@
+.content-cnt {
+  display: flex;
+}
+.products-list {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+// top-filter ===================================================================================================================
+
+.top-filter {
+  margin: 17px 0px 30px 0px;
+  &__types {
+    margin-top: 17px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.009em;
+    color: #b3b3b3;
+    span {
+      color: #000;
+      font-weight: 500;
+    }
+  }
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    padding-left: 46px;
+    position: relative;
+    margin-top: 13px;
+    &::before {
+      content: "";
+      left: 0;
+      top: 3px;
+      border-radius: 50%;
+      position: absolute;
+      width: 26px;
+      height: 26px;
+      background: #fff url("../../media/arrow.svg") center no-repeat;
+    }
+  }
+  &__icons {
+    display: flex;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.009em;
+    align-items: center;
+    span {
+      margin-right: 100px;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        right: -20px;
+        top: 2px;
+        width: 13px;
+        height: 10px;
+        background: url("../../media/sort.svg") no-repeat;
+      }
+    }
+  }
+  &__view {
+    height: 22px;
+    width: 22px;
+    padding: 6px;
+    background: #c93e33 url("../../media/catalog.svg") center no-repeat;
+    border-radius: 50%;
+    margin-right: 23px;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 23px;
+      height: 18px;
+      top: 7px;
+      right: -23px;
+      background: #ffffff url("../../media/union.svg") center no-repeat;
+      border-radius: 50px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+}
+
+// control ===================================================================================================================
+
+.control {
+  margin-top: 25px;
+  margin-bottom: 40px;
+  &__show {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 270px;
+    flex: 1 1 auto;
+  }
+  &__selected {
+    color: #c93e33;
+    border-radius: 50%;
+    padding: 4px 10px;
+    background-color: #fff;
+  }
+  &__pages {
+    list-style: none;
+    display: flex;
+    margin-right: 40px;
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #e6e6e6;
+      background-color: #fff;
+      height: 35px;
+      width: 35px;
+      color: #b3b3b3;
+      &:first-child {
+        background: #fff url("../../media/ctrl-arrow.svg") center no-repeat;
+      }
+      &:last-child {
+        transform: rotate(180deg);
+        background: #fff url("../../media/ctrl-arrow.svg") center no-repeat;
+      }
+      &:nth-child(2) {
+        color: #000;
+      }
+    }
+  }
+  &__all {
+    color: #c93e33;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.009em;
+  }
+}
+
+.control-cnt {
+  display: flex;
+  align-items: center;
+}
+
+.gost-filter {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  padding: 17px 15px;
+  button {
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  button.active-gost {
+    color: #fff;
+    background-color: #c93e33;
+  }
+}
+
+// info ===================================================================================================================
+
+.info {
+  margin-bottom: 40px;
+  &__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.009em;
+  }
+  &__text {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.009em;
+    margin-bottom: 20px;
+  }
+  a {
+    color: #c93e33;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
