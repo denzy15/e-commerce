@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/e-commerce/static/css/main.c7e024b8.css",
+    "main.js": "/e-commerce/static/js/main.b72ede47.js",
+    "static/media/footer-2.png": "/e-commerce/static/media/footer-2.b74a0e6a49486d712734.png",
+    "static/media/commerce.svg": "/e-commerce/static/media/commerce.80ab85e1bea7f77a974c.svg",
+    "static/media/alert.svg": "/e-commerce/static/media/alert.3e6a5f17741c9f41e30e.svg",
+    "static/media/email.svg": "/e-commerce/static/media/email.ea0586e02ad4b7268166.svg",
+    "static/media/filter.svg": "/e-commerce/static/media/filter.3fc81ee09c0abf4f42a9.svg",
+    "static/media/red-cart.svg": "/e-commerce/static/media/red-cart.483207bd2f2947df50069cfc588a386b.svg",
+    "static/media/cart.svg": "/e-commerce/static/media/cart.21a92a804ebfbc934c23.svg",
+    "static/media/catalog-red.svg": "/e-commerce/static/media/catalog-red.7ec0276d1abf7dcf6635.svg",
+    "static/media/location.svg": "/e-commerce/static/media/location.5e0677a45fb34f9143d3.svg",
+    "static/media/delete.svg": "/e-commerce/static/media/delete.187f919754a5e873b0f787e123b3e701.svg",
+    "static/media/catalog.svg": "/e-commerce/static/media/catalog.ea6468b703879c9f8315.svg",
+    "static/media/union.svg": "/e-commerce/static/media/union.4fcc8bbae92c2455ffd9.svg",
+    "static/media/person.svg": "/e-commerce/static/media/person.5c7bff221a72ca42984a.svg",
+    "static/media/fav.svg": "/e-commerce/static/media/fav.c03fc4bfa91f3c7d2268916745ec1b81.svg",
+    "static/media/sort.svg": "/e-commerce/static/media/sort.026e8c8a817217e7a7a8.svg",
+    "static/media/deal.svg": "/e-commerce/static/media/deal.b55f9acd3bf3fdf2323c.svg",
+    "static/media/mail.svg": "/e-commerce/static/media/mail.93199a4a489546d05aa6.svg",
+    "static/media/search.svg": "/e-commerce/static/media/search.38f2adff3c5889de6b37.svg",
+    "static/media/send.svg": "/e-commerce/static/media/send.73e582d539a2e387a0c2.svg",
+    "static/media/arrow.svg": "/e-commerce/static/media/arrow.34566c7f61d1940779bb.svg",
+    "static/media/ctrl-arrow.svg": "/e-commerce/static/media/ctrl-arrow.ebe561d0750710f418f6.svg",
+    "index.html": "/e-commerce/index.html",
+    "main.c7e024b8.css.map": "/e-commerce/static/css/main.c7e024b8.css.map",
+    "main.b72ede47.js.map": "/e-commerce/static/js/main.b72ede47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7e024b8.css",
+    "static/js/main.b72ede47.js"
+  ]
+}
