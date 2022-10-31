@@ -1,4 +1,4 @@
-##What is the point of this particular e-commerce?
+## What is the point of this particular e-commerce?
 
 Tabs in the header are used to add types of the product ("Тип продукта") and the product itself ("Продукты").
 
